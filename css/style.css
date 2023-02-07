@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Raleway:ital,wght@1,300&display=swap');
+
+
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+}
+
+@media(max-width:1400px){
+   .container{
+    max-width: 970px;
+   }
+   
+}
+@media(max-width:992px){
+    .container{
+     max-width: 750px;
+    }
+}
+ @media(max-width:767px){
+    .container{
+     max-width: none;
+    }
+}
+
+.navbar{
+    padding: 1.5rem;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../img/arrow-left-svgrepo-com.svg);
+}
+
+.carousel-control-next-icon{
+    background-image: url(../img/arrow-right-svgrepo-com.svg);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 20px;
+}
+
+.carousel-control-prev{
+    left: -20px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+.carousel-control-next{
+    right: -22px;
+}
+
+.trend{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.col{
+    display: flex;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-text, .card-title{
+    flex: 1 1 auto;
+    font-size: 16px;
+}
+.card-text{
+    font-style: italic;
+    font-size:12px ;
+}
+.clearfix{
+    font-size: 20px;
+    
+}
+.footer-v1{
+    background-color: rgb(231, 227, 227);
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+.footer-v1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.title, .address_blocks{
+    font-size: 14px;
+}
